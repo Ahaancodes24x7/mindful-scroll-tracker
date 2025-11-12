@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mindful Scroll</title>
+  <link rel="stylesheet" href="mindful_scroll_popup_css.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header>
+      <h1>🌿 Mindful Scroll</h1>
+      <p class="tagline">Your focus, your balance.</p>
+      <p class="date" id="currentDate"></p>
+    </header>
+
+    <!-- Stats Section -->
+    <div class="stats">
+      <div class="stat-card">
+        <p class="label">Today</p>
+        <h2 id="todayTotal">0m</h2>
+        <span class="icon">⏱️</span>
+      </div>
+      <div class="stat-card">
+        <p class="label">Weekly</p>
+        <h2 id="weekTotal">0m</h2>
+        <span class="icon">📅</span>
+      </div>
+      <div class="stat-card">
+        <p class="label">Limit</p>
+        <h2 id="dailyLimit">30m</h2>
+        <span class="icon">🚀</span>
+      </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+      <span id="progressText">3%</span>
+    </div>
+
+    <!-- Mood Section -->
+    <section class="mood-section">
+      <h3>How are you feeling?</h3>
+      <div class="mood-buttons">
+        <button class="mood">😄</button>
+        <button class="mood">🙂</button>
+        <button class="mood">😐</button>
+        <button class="mood">😟</button>
+        <button class="mood">😫</button>
+      </div>
+      <p class="mood-quality">Mood Quality: <span id="moodQuality">-</span></p>
+    </section>
+
+    <!-- Settings Section -->
+    <section class="settings">
+      <h3>⚙️ Settings</h3>
+
+      <div class="setting-item">
+        <label for="timeLimit">⏳ Daily Limit (minutes)</label>
+        <input type="number" id="timeLimit" min="5" max="300" value="30">
+      </div>
+
+      <div class="toggle-group">
+        <label class="switch">
+          <input type="checkbox" id="enableAlerts" checked>
+          <span class="slider round"></span>
+        </label>
+        <p>🔔 Alerts</p>
+      </div>
+
+      <div class="toggle-group">
+        <label class="switch">
+          <input type="checkbox" id="enableMorphing" checked>
+          <span class="slider round"></span>
+        </label>
+        <p>🎨 Ambient Morphing</p>
+      </div>
+
+      <div class="slider-control">
+        <label for="morphingIntensity">💫 Morphing Intensity</label>
+        <input type="range" id="morphingIntensity" min="10" max="100" value="50">
+        <span id="intensityValue">50%</span>
+      </div>
+
+      <button id="saveSettings" class="save-btn">💾 Save Settings</button>
+      <button id="resetData" class="reset-btn">🔄 Reset Today</button>
+    </section>
+
+    <footer>
+      <p>🧘 Stay mindful. Scroll consciously.</p>
+    </footer>
+  </div>
+
+  <script src="mindful_scroll_popup_js.js"></script>
+</body>
+</html>
