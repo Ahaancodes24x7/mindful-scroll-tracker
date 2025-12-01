@@ -1,0 +1,1398 @@
+[
+  {
+    "text": "I can't sleep, my heart races and I'm so anxious about tomorrow.",
+    "label": "stress"
+  },
+  {
+    "text": "I feel overwhelmed and on edge all the time.",
+    "label": "stress"
+  },
+  {
+    "text": "Just saying, Everything feels too much; I'm exhausted and panicking.",
+    "label": "stress"
+  },
+  {
+    "text": "Honestly, I'm worried about my presentation; my palms sweat and I can't focus.",
+    "label": "stress"
+  },
+  {
+    "text": "To be honest, I can't concentrate; my head is full of worry.",
+    "label": "stress"
+  },
+  {
+    "text": "My hands shake when   think aboutIthe meeting.",
+    "label": "stress"
+  },
+  {
+    "text": "I can't sleep, my heart races and I'm so anxious about tomorrow. I guess.",
+    "label": "stress"
+  },
+  {
+    "text": "I feel overwhelmed and on edge all the time. I guess.",
+    "label": "stress"
+  },
+  {
+    "text": "Everything feels too much; I'm exhausted and panicking.",
+    "label": "stress"
+  },
+  {
+    "text": "I'm  about my presentation; my palms sweat and I can't focus.",
+    "label": "stress"
+  },
+  {
+    "text": "Right now, I can't concentrate; my head is full of worry.",
+    "label": "stress"
+  },
+  {
+    "text": "My hands shake when I think about the meeting.",
+    "label": "stress"
+  },
+  {
+    "text": "Right now, Everything feels too much; I'm exhausted and panicking.",
+    "label": "stress"
+  },
+  {
+    "text": "I'm worried about my presentation; my palms sweat and I can't focus. It felt that way.",
+    "label": "stress"
+  },
+  {
+    "text": "It feels like I can't concentrate; my head is full of worry.",
+    "label": "stress"
+  },
+  {
+    "text": "I'm worried about my presentation;  mypalms sweat and I can't focus.",
+    "label": "stress"
+  },
+  {
+    "text": "I can't concentrate; my head is full of worry.",
+    "label": "stress"
+  },
+  {
+    "text": "I can't sleep, my heart races and I'm so anxious about tomorrow. It felt that way.",
+    "label": "stress"
+  },
+  {
+    "text": "I'm worried about my presentation; my palms sweat and I can't focus.",
+    "label": "stress"
+  },
+  {
+    "text": "Just saying, I can't sleep, my heart races and I'm so anxious about tomorrow.",
+    "label": "stress"
+  },
+  {
+    "text": "I feel overwhelmed and on edge  the time.",
+    "label": "stress"
+  },
+  {
+    "text": "  feelsEverythingtoo much; I'm exhausted and panicking.",
+    "label": "stress"
+  },
+  {
+    "text": "I'm worried about   presentation; my palmsmysweat and I can't focus.",
+    "label": "stress"
+  },
+  {
+    "text": "I can't concentrate; my head is full of worry. I guess.",
+    "label": "stress"
+  },
+  {
+    "text": "My hands shake when I think about the meeting. I guess.",
+    "label": "stress"
+  },
+  {
+    "text": "Everythingtoofeels   much; I'm exhausted and panicking.",
+    "label": "stress"
+  },
+  {
+    "text": "I think I can't concentrate; my head is full of worry.",
+    "label": "stress"
+  },
+  {
+    "text": "I can't sleep, my heart races and I'm so  about tomorrow.",
+    "label": "stress"
+  },
+  {
+    "text": "Everything  feelstoo much; I'm exhausted and panicking.",
+    "label": "stress"
+  },
+  {
+    "text": "It feels like I feel overwhelmed and on edge all the time.",
+    "label": "stress"
+  },
+  {
+    "text": "Everything feels too much; I'mexhausted and panicking.",
+    "label": "stress"
+  },
+  {
+    "text": "I think I'm worried about my presentation; my palms sweat and I can't focus.",
+    "label": "stress"
+  },
+  {
+    "text": "My hands shake when  Ithink about the meeting.",
+    "label": "stress"
+  },
+  {
+    "text": "I feel overwhelmed and on edge all the time. It felt that way.",
+    "label": "stress"
+  },
+  {
+    "text": "It feels like Everything feels too much; I'm exhausted and panicking.",
+    "label": "stress"
+  },
+  {
+    "text": "My hands shake when I think about  meeting.",
+    "label": "stress"
+  },
+  {
+    "text": "I can't sleep, my heart races and I'm so anxious about tomorrow. Just saying.",
+    "label": "stress"
+  },
+  {
+    "text": "Right now, My hands shake when I think about the meeting.",
+    "label": "stress"
+  },
+  {
+    "text": "Everything   too much;feelsI'm exhausted and panicking.",
+    "label": "stress"
+  },
+  {
+    "text": "Just saying, I can't concentrate; my head is full of worry.",
+    "label": "stress"
+  },
+  {
+    "text": "It feels like I can't sleep, my heart races and I'm so anxious about tomorrow.",
+    "label": "stress"
+  },
+  {
+    "text": "  feel overwhelmedIand on edge all the time.",
+    "label": "stress"
+  },
+  {
+    "text": "I'm feels too much; Everything exhausted and panicking.",
+    "label": "stress"
+  },
+  {
+    "text": "Right now, I feel overwhelmed and on edge all the time.",
+    "label": "stress"
+  },
+  {
+    "text": "I can't concentrate; my head full is of worry.",
+    "label": "stress"
+  },
+  {
+    "text": "My handstheshake when I think about   meeting.",
+    "label": "stress"
+  },
+  {
+    "text": "I feel  overwhelmedand on edge all the time.",
+    "label": "stress"
+  },
+  {
+    "text": "I'm worried about my presentation; mypalms sweat and I can't focus.",
+    "label": "stress"
+  },
+  {
+    "text": "I feel overwhelmed and ontheedge all   time.",
+    "label": "stress"
+  },
+  {
+    "text": "Everything feels  much; I'm exhausted and panicking.",
+    "label": "stress"
+  },
+  {
+    "text": "To be honest, I'm worried about my presentation; my palms sweat and I can't focus.",
+    "label": "stress"
+  },
+  {
+    "text": "To be honest, I can't sleep, my heart races and I'm so anxious about tomorrow.",
+    "label": "stress"
+  },
+  {
+    "text": "I feel overwhelmedand  on edge all the time.",
+    "label": "stress"
+  },
+  {
+    "text": "I'm worried about my presentation; my palms sweat and I can't focus. I guess.",
+    "label": "stress"
+  },
+  {
+    "text": "I feel overwhelmed and on edge all the ",
+    "label": "stress"
+  },
+  {
+    "text": "To be honest, Everything feels too much; I'm exhausted and panicking.",
+    "label": "stress"
+  },
+  {
+    "text": "I'mworried about my presentation; my palms sweat and I can't focus.",
+    "label": "stress"
+  },
+  {
+    "text": "It feels like My hands shake when I think about the meeting.",
+    "label": "stress"
+  },
+  {
+    "text": "I can't sleep, my heart  and I'm so anxious about tomorrow.",
+    "label": "stress"
+  },
+  {
+    "text": "I have no motivation to start any tasks today.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep putting things off; I don't see the point.",
+    "label": "demotivation"
+  },
+  {
+    "text": "It feels like I used to care but now I'm just numb and uninterested.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I feel like nothing I do matters anymore. I guess.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I don'thave the energy to pursue my hobbies anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep delaying every project because I  hopeless.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I have no motivationto start any tasks today.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep putting things off; I don't see the point. It felt that way.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I used to care but now I'm just numb and uninterested.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I feel like nothing I do matters anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "Right now, I don't have the energy to pursue my hobbies anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "Honestly, I keep delaying every project because I feel hopeless.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep putting things off; I the see don't point.",
+    "label": "demotivation"
+  },
+  {
+    "text": "Just saying, I used to care but now I'm just numb and uninterested.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I don't have the energy to pursue my hobbies anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep delaying every project because I feel hopeless.",
+    "label": "demotivation"
+  },
+  {
+    "text": "Honestly, I have no motivation to start any tasks today.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep putting things off; I don't see thepoint.",
+    "label": "demotivation"
+  },
+  {
+    "text": "Honestly, I don't have the energy to pursue my hobbies anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "Ikeep delaying every project because I feel hopeless.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep putting things off; I don't   theseepoint.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I used to care but now I'm just numb and uninterested. I guess.",
+    "label": "demotivation"
+  },
+  {
+    "text": "Just saying, I feel like nothing I do matters anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I have nomotivation  to start any tasks today.",
+    "label": "demotivation"
+  },
+  {
+    "text": "Right now, I keep putting things off; I don't see the point.",
+    "label": "demotivation"
+  },
+  {
+    "text": "To be honest, I don't have the energy to pursue my hobbies anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep delaying every project because I feel hopeless. Just saying.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I have no motivation to start any tasks today. I guess.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I think I used to care but now I'm just numb and uninterested.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I feel like  I do matters anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I don't have the energy to pursue my hobbies anymore. Just saying.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep delaying every projectbecause I feel hopeless.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I used to care but now I'm just numband uninterested.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I feel likenothing I do matters anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I don't havethe energy to pursue my hobbies anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I start no motivation to have any tasks today.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I think I keep putting things off; I don't see the point.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I feel like nothing I do matters anymore. It felt that way.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I  delaying every project because I feel hopeless.",
+    "label": "demotivation"
+  },
+  {
+    "text": "Honestly, I keep putting things off; I don't see the point.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I used to care but now I'm just numb and uninterested. It felt that way.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I don't have the energy to pursue my  anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "Just saying, I keep putting things off; I don't see the point.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I used just care but now I'm to numb and uninterested.",
+    "label": "demotivation"
+  },
+  {
+    "text": "It feels like I feel like nothing I do matters anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "It feels like I have no motivation to start any tasks today.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I used to care but now I'm just numb and uninterested. Just saying.",
+    "label": "demotivation"
+  },
+  {
+    "text": "Imattersfeel like nothing I do   anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I have no motivation to start any tasks today. It felt that way.",
+    "label": "demotivation"
+  },
+  {
+    "text": " keep putting things off; I don't see the point.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I used to care but  I'm just numb and uninterested.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I feel like nothing I do mattersanymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "It feels like I don't have the energy to pursue my hobbies anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I have no motivation to start any tasks today. Just saying.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep delaying every project becauseI  feel hopeless.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I have no motivation to start anytasks today.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I   to care but now I'musedjust numb and uninterested.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I feel do nothing I like matters anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I think I don't have the energy to pursue my hobbies anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep project every delaying because I feel hopeless.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I have no motivation  start any tasks today.",
+    "label": "demotivation"
+  },
+  {
+    "text": "To be honest, I keep putting things off; I don't see the point.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I used to carebut now I'm just numb and uninterested.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I used to care but now I'm  numb and uninterested.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I feel like nothing Ido  matters anymore.",
+    "label": "demotivation"
+  },
+  {
+    "text": "Just saying, I have no motivation to start any tasks today.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep putting things   I don'toff;see the point.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I used to care but now I'mjust numb and uninterested.",
+    "label": "demotivation"
+  },
+  {
+    "text": "I keep delaying every project because I feel hopeless. It felt that way.",
+    "label": "demotivation"
+  },
+  {
+    "text": "To be honest, I have no motivation to start any tasks today.",
+    "label": "demotivation"
+  },
+  {
+    "text": "This news about theaccident made me feel really sad and worried.",
+    "label": "negative"
+  },
+  {
+    "text": "The comments were full of anger and fright; it was upsetting. It felt that way.",
+    "label": "negative"
+  },
+  {
+    "text": "worse; day kept getting My everything felt wrong.",
+    "label": "negative"
+  },
+  {
+    "text": "That article was depressing and made me feel uneasy.",
+    "label": "negative"
+  },
+  {
+    "text": "So many bad headlines today, it's disheartening.",
+    "label": "negative"
+  },
+  {
+    "text": "It feels like The tone of the thread was harsh and upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "This   about the accident made me feelnewsreally sad and worried.",
+    "label": "negative"
+  },
+  {
+    "text": "The comments were full  anger and fright; it was upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "Honestly, My day kept getting worse; everything felt wrong.",
+    "label": "negative"
+  },
+  {
+    "text": "That article was depressing and made me feel uneasy. I guess.",
+    "label": "negative"
+  },
+  {
+    "text": "today, many bad headlines So it's disheartening.",
+    "label": "negative"
+  },
+  {
+    "text": "I think The tone of the thread was harsh and upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "This news about the accident made me feel really sad and worried.",
+    "label": "negative"
+  },
+  {
+    "text": "The comments were full of anger andfright; it was upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "My day kept getting worse; everything felt wrong.",
+    "label": "negative"
+  },
+  {
+    "text": "The tone of the thread was harsh and upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "This news about the accident made me feel really  and worried.",
+    "label": "negative"
+  },
+  {
+    "text": "The comments were full of anger and fright; it was upsetting. I guess.",
+    "label": "negative"
+  },
+  {
+    "text": "I think My day kept getting worse; everything felt wrong.",
+    "label": "negative"
+  },
+  {
+    "text": "So many bad headlines today, it's disheartening. I guess.",
+    "label": "negative"
+  },
+  {
+    "text": "This news about the sad made me feel really accident and worried.",
+    "label": "negative"
+  },
+  {
+    "text": "The comments were full ofanger and fright; it was upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "My day kept getting worse; everything felt wrong. It felt that way.",
+    "label": "negative"
+  },
+  {
+    "text": "Honestly, That article was depressing and made me feel uneasy.",
+    "label": "negative"
+  },
+  {
+    "text": "So many bad headlines today, it's disheartening. It felt that way.",
+    "label": "negative"
+  },
+  {
+    "text": "Right now, This news about the accident made me feel really sad and worried.",
+    "label": "negative"
+  },
+  {
+    "text": "The comments were full of anger and fright; it was upsetting. Just saying.",
+    "label": "negative"
+  },
+  {
+    "text": " day kept getting worse; everything felt wrong.",
+    "label": "negative"
+  },
+  {
+    "text": "So many badheadlines  today, it's disheartening.",
+    "label": "negative"
+  },
+  {
+    "text": "Thethetone of   thread was harsh and upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "To be honest, The comments were full of anger and fright; it was upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "Right now, My day kept getting worse; everything felt wrong.",
+    "label": "negative"
+  },
+  {
+    "text": "Honestly, This news about the accident made me feel really sad and worried.",
+    "label": "negative"
+  },
+  {
+    "text": "I think The comments were full of anger and fright; it was upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "My day kept getting worse; everything felt wrong. I guess.",
+    "label": "negative"
+  },
+  {
+    "text": "Honestly, The tone of the thread was harsh and upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "This news about the accident made me feel really sad and worried. I guess.",
+    "label": "negative"
+  },
+  {
+    "text": "My day kept getting worse;  felt wrong.",
+    "label": "negative"
+  },
+  {
+    "text": "Honestly, So many bad headlines today, it's disheartening.",
+    "label": "negative"
+  },
+  {
+    "text": "It feels like This news about the accident made me feel really sad and worried.",
+    "label": "negative"
+  },
+  {
+    "text": "Honestly, The comments were full of anger and fright; it was upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "My day kept getting   everything feltworse;wrong.",
+    "label": "negative"
+  },
+  {
+    "text": "That article was depressingand made me feel uneasy.",
+    "label": "negative"
+  },
+  {
+    "text": "The tone of the thread was  and upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "This news sad the accident made me feel really about and worried.",
+    "label": "negative"
+  },
+  {
+    "text": "The comments were full of anger and fright;  was upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "Thatarticle was depressing and made me feel uneasy.",
+    "label": "negative"
+  },
+  {
+    "text": "The toneof the thread was harsh and upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "This news about the accident  me feel really sad and worried.",
+    "label": "negative"
+  },
+  {
+    "text": "It feels like The comments were full of anger and fright; it was upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "Just saying, So many bad headlines today, it's disheartening.",
+    "label": "negative"
+  },
+  {
+    "text": "The comments were full of anger and fright; it was upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "My day kept gettingworse; everything felt wrong.",
+    "label": "negative"
+  },
+  {
+    "text": "Right now, That article was depressing and made me feel uneasy.",
+    "label": "negative"
+  },
+  {
+    "text": "The tone ofwasthe thread   harsh and upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "The comments were full of anger and fright;it was upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "My day kept gettingfeltworse; everything   wrong.",
+    "label": "negative"
+  },
+  {
+    "text": "That article was depressing made and me feel uneasy.",
+    "label": "negative"
+  },
+  {
+    "text": "Just saying, The tone of the thread was harsh and upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "Just saying, That article was depressing and made me feel uneasy.",
+    "label": "negative"
+  },
+  {
+    "text": "So many bad headlines today, it's disheartening. Just saying.",
+    "label": "negative"
+  },
+  {
+    "text": "This news about the accident made me feel really sad and ",
+    "label": "negative"
+  },
+  {
+    "text": "Right now, So many bad headlines today, it's disheartening.",
+    "label": "negative"
+  },
+  {
+    "text": "To be honest, The tone of the thread was harsh and upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "That articlewas depressing and made me feel uneasy.",
+    "label": "negative"
+  },
+  {
+    "text": "My day kept getting everything worse; felt wrong.",
+    "label": "negative"
+  },
+  {
+    "text": "of tone The the thread was harsh and upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "This news about the  made me feel really sad and worried.",
+    "label": "negative"
+  },
+  {
+    "text": "My day kept  worse; everything felt wrong.",
+    "label": "negative"
+  },
+  {
+    "text": "The comments were full of anger and fright; it  upsetting.",
+    "label": "negative"
+  },
+  {
+    "text": "My day kept getting worse; everything felt ",
+    "label": "negative"
+  },
+  {
+    "text": "This news about the accident made me feel really sad and worried. It felt that way.",
+    "label": "negative"
+  },
+  {
+    "text": "The event starts at 7pm and the schedule is posted.",
+    "label": "neutral"
+  },
+  {
+    "text": "I bought milk, breadand eggs at the store.",
+    "label": "neutral"
+  },
+  {
+    "text": "Meeting moved to Monday; agenda attached. I guess.",
+    "label": "neutral"
+  },
+  {
+    "text": "Just saying, Package delivered. Tracking number updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Right now, Laundry done, bills paid, schedule updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Train arrives at 3:45 PM from platform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "I bought milk, bread and eggs at the store. I guess.",
+    "label": "neutral"
+  },
+  {
+    "text": "Package  Tracking number updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "It feels like Laundry done, bills paid, schedule updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Train   at 3:45 PM from platformarrives2.",
+    "label": "neutral"
+  },
+  {
+    "text": "The event starts at 7pm and theschedule is posted.",
+    "label": "neutral"
+  },
+  {
+    "text": "I bought milk, bread and eggs at the store.",
+    "label": "neutral"
+  },
+  {
+    "text": "It feels like Meeting moved to Monday; agenda attached.",
+    "label": "neutral"
+  },
+  {
+    "text": "Package delivered. Tracking number updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Laundry done, bills paid,  updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Right now, Train arrives at 3:45 PM from platform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "The event starts at 7pm and the schedule is posted. It felt that way.",
+    "label": "neutral"
+  },
+  {
+    "text": "I think Meeting moved to Monday; agenda attached.",
+    "label": "neutral"
+  },
+  {
+    "text": "Package delivered. Trackingnumber updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Laundry done, bills paid, schedule updated. Just saying.",
+    "label": "neutral"
+  },
+  {
+    "text": "Meeting moved to Monday; agenda attached.",
+    "label": "neutral"
+  },
+  {
+    "text": "To be honest, Package delivered. Tracking number updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Laundry done, bills paid, schedule updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "The event   at 7pm and thestartsschedule is posted.",
+    "label": "neutral"
+  },
+  {
+    "text": "Meeting  to Monday; agenda attached.",
+    "label": "neutral"
+  },
+  {
+    "text": "It feels like Package delivered. Tracking number updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Laundry done, bills paid, schedule updated. It felt that way.",
+    "label": "neutral"
+  },
+  {
+    "text": "Train arrivesat 3:45 PM from platform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "Honestly, The event starts at 7pm and the schedule is posted.",
+    "label": "neutral"
+  },
+  {
+    "text": "I bought milk, bread and eggs at the store. It felt that way.",
+    "label": "neutral"
+  },
+  {
+    "text": "Honestly, Package delivered. Tracking number updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "done, Laundry bills paid, schedule updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Train arrives at 3:45 PM  platform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "Just saying, I bought milk, bread and eggs at the store.",
+    "label": "neutral"
+  },
+  {
+    "text": "Meeting movedMonday;to   agenda attached.",
+    "label": "neutral"
+  },
+  {
+    "text": "The event starts at 7pm and the schedule  posted.",
+    "label": "neutral"
+  },
+  {
+    "text": "I bought milk,andbread   eggs at the store.",
+    "label": "neutral"
+  },
+  {
+    "text": "Just saying, Meeting moved to Monday; agenda attached.",
+    "label": "neutral"
+  },
+  {
+    "text": "Package delivered. Tracking  updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Train arrives at 3:45 PM fromplatform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "I  milk, bread and eggs at the store.",
+    "label": "neutral"
+  },
+  {
+    "text": "Honestly, Meeting moved to Monday; agenda attached.",
+    "label": "neutral"
+  },
+  {
+    "text": "Honestly, Laundry done, bills paid, schedule updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "The event starts at7pm and the schedule is posted.",
+    "label": "neutral"
+  },
+  {
+    "text": "I bought milk, bread  andeggs at the store.",
+    "label": "neutral"
+  },
+  {
+    "text": "Train3:45arrives at   PM from platform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "It feels like I bought milk, bread and eggs at the store.",
+    "label": "neutral"
+  },
+  {
+    "text": "Monday; moved to Meeting agenda attached.",
+    "label": "neutral"
+  },
+  {
+    "text": "Package delivered. Tracking numberupdated.",
+    "label": "neutral"
+  },
+  {
+    "text": "To be honest, Train arrives at 3:45 PM from platform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "I bought milk, bread and  at the store.",
+    "label": "neutral"
+  },
+  {
+    "text": "Package delivered. Tracking number ",
+    "label": "neutral"
+  },
+  {
+    "text": " done, bills paid, schedule updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "The event starts at   and the7pmschedule is posted.",
+    "label": "neutral"
+  },
+  {
+    "text": "Right now, I bought milk, bread and eggs at the store.",
+    "label": "neutral"
+  },
+  {
+    "text": "I think Train arrives at 3:45 PM from platform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "Right now, Meeting moved to Monday; agenda attached.",
+    "label": "neutral"
+  },
+  {
+    "text": "Package delivered. Tracking number updated. Just saying.",
+    "label": "neutral"
+  },
+  {
+    "text": "Train arrives at3:45 PM from platform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "I think Package delivered. Tracking number updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Train arrives   3:45atPM from platform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "I think The event starts at 7pm and the schedule is posted.",
+    "label": "neutral"
+  },
+  {
+    "text": "  delivered. Tracking numberPackageupdated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Trainarrives  at 3:45 PM from platform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "Meeting moved to Monday; agenda attached. Just saying.",
+    "label": "neutral"
+  },
+  {
+    "text": "Laundry done, bills paid, schedule ",
+    "label": "neutral"
+  },
+  {
+    "text": "It feels like Train arrives at 3:45 PM from platform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "Meeting moved  Monday; agenda attached.",
+    "label": "neutral"
+  },
+  {
+    "text": "Package   Trackingdelivered.number updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "I think Laundry done, bills paid, schedule updated.",
+    "label": "neutral"
+  },
+  {
+    "text": "Honestly, Train arrives at 3:45 PM from platform 2.",
+    "label": "neutral"
+  },
+  {
+    "text": "Meeting Monday; to moved agenda attached.",
+    "label": "neutral"
+  },
+  {
+    "text": "I  a wonderful walk in the park and felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "I think Small victories today — I finished my task and felt proud.",
+    "label": "positive"
+  },
+  {
+    "text": "The sunset was beautiful and it lifted my mood.",
+    "label": "positive"
+  },
+  {
+    "text": "My  surprised me with coffee and it made my day.",
+    "label": "positive"
+  },
+  {
+    "text": "Right now, I felt calm after meditating for ten minutes.",
+    "label": "positive"
+  },
+  {
+    "text": "I laughed at a joke and it brightened my whole afternoon.",
+    "label": "positive"
+  },
+  {
+    "text": "I hada wonderful walk in the park and felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "Small victories today — I finished my task  felt proud.",
+    "label": "positive"
+  },
+  {
+    "text": "The sunset was beautiful and it lifted my mood. It felt that way.",
+    "label": "positive"
+  },
+  {
+    "text": "My friend surprised me with coffee and it made my day.",
+    "label": "positive"
+  },
+  {
+    "text": "I  calm after meditating for ten minutes.",
+    "label": "positive"
+  },
+  {
+    "text": "I had a   walk in the park andwonderfulfelt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "Small victories today — I finished my task and felt proud.",
+    "label": "positive"
+  },
+  {
+    "text": "The sunset was beautifuland it lifted my mood.",
+    "label": "positive"
+  },
+  {
+    "text": "Honestly, My friend surprised me with coffee and it made my day.",
+    "label": "positive"
+  },
+  {
+    "text": "I felt calm after meditating for ten minutes.",
+    "label": "positive"
+  },
+  {
+    "text": "I laughed at a joke andit brightened my whole afternoon.",
+    "label": "positive"
+  },
+  {
+    "text": "To be honest, I had a wonderful walk in the park and felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "The sunset was it and beautiful lifted my mood.",
+    "label": "positive"
+  },
+  {
+    "text": "Just saying, I felt calm after meditating for ten minutes.",
+    "label": "positive"
+  },
+  {
+    "text": "I laughed at aitjoke and   brightened my whole afternoon.",
+    "label": "positive"
+  },
+  {
+    "text": "I had a wonderful walk in the park and felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "The sunset was  and it lifted my mood.",
+    "label": "positive"
+  },
+  {
+    "text": "Just saying, My friend surprised me with coffee and it made my day.",
+    "label": "positive"
+  },
+  {
+    "text": "Honestly, I had a wonderful walk in the park and felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "Honestly, The sunset was beautiful and it lifted my mood.",
+    "label": "positive"
+  },
+  {
+    "text": "My friend surprised me with coffee and it made my day. It felt that way.",
+    "label": "positive"
+  },
+  {
+    "text": "I think I felt calm after meditating for ten minutes.",
+    "label": "positive"
+  },
+  {
+    "text": "Right now, I had a wonderful walk in the park and felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "I felt calm after meditating for ten minutes. Just saying.",
+    "label": "positive"
+  },
+  {
+    "text": "I laughed at a joke and it brightenedmy whole afternoon.",
+    "label": "positive"
+  },
+  {
+    "text": "Small victories today — Ifeltfinished my task and   proud.",
+    "label": "positive"
+  },
+  {
+    "text": "To be honest, The sunset was beautiful and it lifted my mood.",
+    "label": "positive"
+  },
+  {
+    "text": "My friend surprised me with coffee and it made my day. Just saying.",
+    "label": "positive"
+  },
+  {
+    "text": "I felt calm after meditating for ten minutes. I guess.",
+    "label": "positive"
+  },
+  {
+    "text": "It feels like I laughed at a joke and it brightened my whole afternoon.",
+    "label": "positive"
+  },
+  {
+    "text": "I had a  walk in the park and felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "my victories today — I finished Small task and felt proud.",
+    "label": "positive"
+  },
+  {
+    "text": "sunset The was beautiful and it lifted my mood.",
+    "label": "positive"
+  },
+  {
+    "text": "I feltaftercalm   meditating for ten minutes.",
+    "label": "positive"
+  },
+  {
+    "text": "I had a wonderful walk in  thepark and felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "To be honest, Small victories today — I finished my task and felt proud.",
+    "label": "positive"
+  },
+  {
+    "text": "The sunset was beautiful and it lifted my mood. Just saying.",
+    "label": "positive"
+  },
+  {
+    "text": "I felt calm after meditating for ten minutes. It felt that way.",
+    "label": "positive"
+  },
+  {
+    "text": "I had a wonderful walk in the parkand felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "My friend surprised me with coffee and  made my day.",
+    "label": "positive"
+  },
+  {
+    "text": "I laughed at a  and it brightened my whole afternoon.",
+    "label": "positive"
+  },
+  {
+    "text": "Right now, Small victories today — I finished my task and felt proud.",
+    "label": "positive"
+  },
+  {
+    "text": "Just saying, The sunset was beautiful and it lifted my mood.",
+    "label": "positive"
+  },
+  {
+    "text": "My friend surprised me with coffee and it  my day.",
+    "label": "positive"
+  },
+  {
+    "text": "I for calm after meditating felt ten minutes.",
+    "label": "positive"
+  },
+  {
+    "text": "It feels like I had a wonderful walk in the park and felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "Small victories today — I finished my task andfelt proud.",
+    "label": "positive"
+  },
+  {
+    "text": "The sunset  beautiful and it lifted my mood.",
+    "label": "positive"
+  },
+  {
+    "text": "My friend surprised me my coffee and it made with day.",
+    "label": "positive"
+  },
+  {
+    "text": "I laughed at a joke and it brightened my whole afternoon. It felt that way.",
+    "label": "positive"
+  },
+  {
+    "text": "My friend surprised with me coffee and it made my day.",
+    "label": "positive"
+  },
+  {
+    "text": "I felt calm  meditating for ten minutes.",
+    "label": "positive"
+  },
+  {
+    "text": "the had a wonderful walk in I park and felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "The sunset was beautiful and it lifted my mood. I guess.",
+    "label": "positive"
+  },
+  {
+    "text": "My friend surprised me with coffee and it made my day. I guess.",
+    "label": "positive"
+  },
+  {
+    "text": "Honestly, I felt calm after meditating for ten minutes.",
+    "label": "positive"
+  },
+  {
+    "text": "I had a wonderful walk in the park and felt peaceful. Just saying.",
+    "label": "positive"
+  },
+  {
+    "text": "Small victories today — I finished my task and felt proud. It felt that way.",
+    "label": "positive"
+  },
+  {
+    "text": "I ten calm after meditating for felt minutes.",
+    "label": "positive"
+  },
+  {
+    "text": "I laughed at a joke and it brightened my whole afternoon. Just saying.",
+    "label": "positive"
+  },
+  {
+    "text": "I the a wonderful walk in had park and felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "Small victories today —  finished my task and felt proud.",
+    "label": "positive"
+  },
+  {
+    "text": "I felt calm aftermeditating for ten minutes.",
+    "label": "positive"
+  },
+  {
+    "text": "I laughed at a joke and itbrightened my whole afternoon.",
+    "label": "positive"
+  },
+  {
+    "text": "I had a wonderful walkin the park and felt peaceful.",
+    "label": "positive"
+  },
+  {
+    "text": "Honestly, Small victories today — I finished my task and felt proud.",
+    "label": "positive"
+  },
+  {
+    "text": "Small victories today — I finished my task  andfelt proud.",
+    "label": "positive"
+  },
+  {
+    "text": "The sunset wasbeautiful and it lifted my mood.",
+    "label": "positive"
+  },
+  {
+    "text": "Right now, My friend surprised me with coffee and it made my day.",
+    "label": "positive"
+  },
+  {
+    "text": "I laughed at a joke and it brightened my wholeafternoon.",
+    "label": "positive"
+  }
+]

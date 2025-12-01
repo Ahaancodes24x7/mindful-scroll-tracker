@@ -1,0 +1,23 @@
+{
+  "name": "mindful-scroll-tracker",
+  "version": "1.0.0",
+  "description": "Chrome extension for tracking social media usage with real-time alerts, mood tracking, and ambient screen morphing",
+  "main": "background.js",
+  "scripts": {
+    "build": "echo 'Build complete. Load the extension in Chrome from chrome://extensions'",
+    "test": "echo 'No tests specified'",
+    "prepare-dataset": "node tools/fetch_prepare_dataset.js"
+  },
+  "keywords": [
+    "chrome-extension",
+    "social-media",
+    "time-tracking",
+    "productivity",
+    "mindfulness",
+    "wellness"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

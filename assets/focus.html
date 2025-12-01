@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Focus Mode — Mindful Scroll</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#f6fbf8;color:#102a43;display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
+    .card{max-width:760px;padding:36px;border-radius:12px;background:#ffffff;box-shadow:0 20px 60px rgba(0,0,0,0.08);text-align:center}
+    h1{margin:0 0 8px;font-size:28px}
+    p{color:#334155;margin:12px 0 18px}
+    .actions{display:flex;gap:12px;justify-content:center}
+    a.button{display:inline-block;padding:10px 16px;background:#2b6cb0;color:#fff;border-radius:8px;text-decoration:none}
+    a.secondary{background:#e6eef8;color:#1e293b}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Focus Mode</h1>
+    <p>We've gathered a calmer, distraction-free space for you. Use this page to breathe, reflect, or open a focused task.
+    </p>
+    <div style="margin-top:18px;text-align:left">
+      <h3 style="margin-bottom:8px">Calming activities</h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+        <div style="padding:12px;border-radius:8px;background:#f0f9ff">
+          <strong>Breathe (2 min)</strong>
+          <p style="margin:8px 0 0;color:#334155">Sit comfortably. Inhale for 4s, hold 4s, exhale 6s. Repeat for 2 minutes.</p>
+        </div>
+        <div style="padding:12px;border-radius:8px;background:#fff7ed">
+          <strong>Micro-journal</strong>
+          <p style="margin:8px 0 0;color:#334155">Write 3 things you're grateful for — quick and grounding.</p>
+        </div>
+        <div style="padding:12px;border-radius:8px;background:#eefbf4">
+          <strong>Focus timer</strong>
+          <p style="margin:8px 0 0;color:#334155">Start a 10-minute timer to work on one small task, no interruptions.</p>
+        </div>
+        <div style="padding:12px;border-radius:8px;background:#f7f6ff">
+          <strong>Positive media</strong>
+          <p style="margin:8px 0 0;color:#334155">Read a short uplifting quote or image to reset your mood.</p>
+        </div>
+      </div>
+
+      <div class="actions" style="margin-top:18px;justify-content:center">
+        <a class="button" href="about:blank" id="openTask">Open a blank note</a>
+        <a class="button secondary" id="closeBtn" href="#">Return</a>
+      </div>
+
+      <p style="margin-top:12px;font-size:0.9em;color:#64748b">Tip: take 2 minutes to breathe, then return to browsing.</p>
+    </div>
+  </div>
+  <script>
+    document.getElementById('closeBtn').addEventListener('click', (e)=>{ e.preventDefault(); window.close(); });
+    document.getElementById('openTask').addEventListener('click', ()=>{ window.open('about:blank','_blank'); });
+  </script>
+</body>
+</html>

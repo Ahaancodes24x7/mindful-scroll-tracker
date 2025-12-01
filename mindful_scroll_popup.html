@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mindful Scroll AI</title>
+  <link rel="stylesheet" href="mindful_scroll_popup_css.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+      <button class="nav-tab active" data-tab="dashboard" title="Main dashboard">
+        <span class="tab-icon">📊</span>
+        <span class="tab-label">Dashboard</span>
+      </button>
+      <button class="nav-tab" data-tab="ai-insights" title="AI-powered insights">
+        <span class="tab-icon">🤖</span>
+        <span class="tab-label">AI Insights</span>
+      </button>
+      <button class="nav-tab" data-tab="focus-tools" title="Focus and productivity tools">
+        <span class="tab-icon">🎯</span>
+        <span class="tab-label">Focus</span>
+      </button>
+      <button class="nav-tab" data-tab="settings" title="Settings and preferences">
+        <span class="tab-icon">⚙️</span>
+        <span class="tab-label">Settings</span>
+      </button>
+    </nav>
+
+    <!-- Dashboard Tab -->
+    <div id="dashboard" class="tab-content active">
+      <header class="app-header">
+        <div class="header-content">
+          <h1 class="app-title">
+            <span class="title-icon">🌿</span>
+            Mindful Scroll AI
+          </h1>
+          <p class="app-subtitle">AI-powered digital wellness companion</p>
+          <div class="status-indicator">
+            <span class="status-dot active"></span>
+            <span class="status-text" id="currentStatus">Active • Monitoring</span>
+          </div>
+        </div>
+        <div class="date-time">
+          <p class="current-date" id="currentDate"></p>
+          <p class="current-time" id="currentTime"></p>
+        </div>
+      </header>
+
+      <!-- Quick Action Cards -->
+      <section class="quick-actions">
+        <div class="action-card primary" id="quickFocusStart" title="Start AI-guided focus session">
+          <div class="card-icon">🚀</div>
+          <div class="card-content">
+            <h3>Deep Focus</h3>
+            <p>AI-optimized 25min session</p>
+          </div>
+        </div>
+        <div class="action-card secondary" id="quickPauseSite" title="Pause tracking for current site">
+          <div class="card-icon">⏸️</div>
+          <div class="card-content">
+            <h3>Pause Site</h3>
+            <p>Smart break mode</p>
+          </div>
+        </div>
+        <div class="action-card tertiary" id="quickImportModel" title="Load optimized AI model">
+          <div class="card-icon">🧠</div>
+          <div class="card-content">
+            <h3>Load Model</h3>
+            <p>Enhanced AI patterns</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Statistics Grid -->
+      <section class="stats-grid">
+        <div class="stat-card primary">
+          <div class="stat-header">
+            <span class="stat-icon">📈</span>
+            <span class="stat-label">Today's Focus</span>
+          </div>
+          <div class="stat-value" id="todayTotal">0m</div>
+          <div class="stat-trend positive" id="todayTrend">+12% from yesterday</div>
+        </div>
+        
+        <div class="stat-card secondary">
+          <div class="stat-header">
+            <span class="stat-icon">🎯</span>
+            <span class="stat-label">Weekly Goal</span>
+          </div>
+          <div class="stat-value" id="weekTotal">0m</div>
+          <div class="stat-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" id="weekProgressFill" style="width: 65%"></div>
+            </div>
+            <span class="progress-text">65% complete</span>
+          </div>
+        </div>
+        
+        <div class="stat-card tertiary">
+          <div class="stat-header">
+            <span class="stat-icon">�</span>
+            <span class="stat-label">Focus Streak</span>
+          </div>
+          <div class="stat-value" id="focusStreak">7 days</div>
+          <div class="stat-trend positive">🏆 Personal best!</div>
+        </div>
+        
+        <div class="stat-card quaternary">
+          <div class="stat-header">
+            <span class="stat-icon">⚡</span>
+            <span class="stat-label">Daily Limit</span>
+          </div>
+          <div class="stat-value" id="dailyLimit">30m</div>
+          <div class="stat-progress">
+            <div class="progress-bar mini">
+              <div class="progress-fill" id="dailyProgressFill" style="width: 23%"></div>
+            </div>
+            <span class="progress-text">7m remaining</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Activity Timeline -->
+      <section class="activity-section">
+        <div class="section-header">
+          <h3 class="section-title">📱 Today's Activity</h3>
+          <div class="section-actions">
+            <button class="action-btn ghost" id="exportCsvBtn" title="Export data">📤</button>
+            <button class="action-btn ghost" id="openLogsBtn" title="View detailed logs">📋</button>
+          </div>
+        </div>
+        <div class="activity-chart">
+          <canvas id="stressSpark" width="480" height="120"></canvas>
+        </div>
+        <div class="activity-summary">
+          <div class="summary-item">
+            <span class="summary-label">Stress Events</span>
+            <span class="summary-value" id="stressCount">0</span>
+            <span class="summary-trend" id="trendPercent">↔ 0%</span>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">AI Nudges</span>
+            <span class="summary-value" id="nudgeCount">0</span>
+            <span class="summary-trend positive">↑ 2 today</span>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">Focus Score</span>
+            <span class="summary-value" id="focusScore">8.2</span>
+            <span class="summary-trend positive">+0.3</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Active Apps -->
+      <section class="apps-section">
+        <div class="section-header">
+          <h3 class="section-title">🌐 Active Monitoring</h3>
+          <span class="live-indicator">🔴 Live</span>
+        </div>
+        <div id="appList" class="app-list modern"></div>
+      </section>
+    </div>
+
+    <!-- AI Insights Tab -->
+    <div id="ai-insights" class="tab-content">
+      <div class="tab-header">
+        <h2 class="tab-title">🤖 AI Insights & Models</h2>
+        <p class="tab-subtitle">Advanced machine learning for digital wellness</p>
+      </div>
+
+      <!-- AI Model Status -->
+      <section class="ai-status-section">
+        <div class="model-grid">
+          <div class="model-card active" data-model="naive-bayes">
+            <div class="model-header">
+              <div class="model-icon">🧠</div>
+              <div class="model-info">
+                <h4>Naive Bayes Classifier</h4>
+                <p>Content stress detection</p>
+              </div>
+              <div class="model-status active">
+                <span class="status-dot"></span>
+                <span class="status-text">Active</span>
+              </div>
+            </div>
+            <div class="model-metrics">
+              <div class="metric">
+                <span class="metric-label">Accuracy</span>
+                <span class="metric-value">94.2%</span>
+              </div>
+              <div class="metric">
+                <span class="metric-label">Training Examples</span>
+                <span class="metric-value" id="exampleCount">0</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="model-card" data-model="sentiment">
+            <div class="model-header">
+              <div class="model-icon">💭</div>
+              <div class="model-info">
+                <h4>Sentiment Analysis</h4>
+                <p>Emotional content scoring</p>
+              </div>
+              <div class="model-status coming-soon">
+                <span class="status-dot"></span>
+                <span class="status-text">Beta</span>
+              </div>
+            </div>
+            <div class="model-metrics">
+              <div class="metric">
+                <span class="metric-label">Confidence</span>
+                <span class="metric-value">87.6%</span>
+              </div>
+              <div class="metric">
+                <span class="metric-label">Languages</span>
+                <span class="metric-value">12</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="model-card" data-model="behavior">
+            <div class="model-header">
+              <div class="model-icon">📊</div>
+              <div class="model-info">
+                <h4>Behavior Pattern AI</h4>
+                <p>Usage pattern analysis</p>
+              </div>
+              <div class="model-status training">
+                <span class="status-dot"></span>
+                <span class="status-text">Training</span>
+              </div>
+            </div>
+            <div class="model-metrics">
+              <div class="metric">
+                <span class="metric-label">Data Points</span>
+                <span class="metric-value">2.4K</span>
+              </div>
+              <div class="metric">
+                <span class="metric-label">Patterns</span>
+                <span class="metric-value">47</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Training Interface -->
+      <section class="training-section">
+        <div class="section-header">
+          <h3 class="section-title">🎓 Model Training</h3>
+          <div class="training-status" id="trainingStatus">
+            <span class="status-indicator ready">Ready</span>
+          </div>
+        </div>
+        
+        <div class="training-interface">
+          <div class="input-group">
+            <label class="input-label">Training Content</label>
+            <textarea 
+              id="trainingText" 
+              class="training-textarea"
+              placeholder="Paste content for AI training (articles, posts, feeds)..."
+              rows="4"
+            ></textarea>
+          </div>
+          
+          <div class="label-selector">
+            <label class="input-label">Content Classification</label>
+            <div class="label-grid">
+              <button class="label-btn" data-label="stress">😰 Stress</button>
+              <button class="label-btn" data-label="demotivation">😔 Demotivation</button>
+              <button class="label-btn" data-label="negative">➖ Negative</button>
+              <button class="label-btn selected" data-label="neutral">➖ Neutral</button>
+              <button class="label-btn" data-label="positive">✅ Positive</button>
+              <button class="label-btn" data-label="motivational">💪 Motivational</button>
+            </div>
+            <input type="hidden" id="trainingLabel" value="neutral">
+          </div>
+          
+          <div class="training-actions">
+            <button class="btn primary" id="addExampleBtn">
+              <span class="btn-icon">➕</span>
+              Add Training Example
+            </button>
+            <button class="btn secondary" id="retrainBtn">
+              <span class="btn-icon">🚀</span>
+              Retrain Model
+            </button>
+            <button class="btn ghost" id="clearExamplesBtn">
+              <span class="btn-icon">🗑️</span>
+              Clear Data
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Model Management -->
+      <section class="model-management">
+        <div class="section-header">
+          <h3 class="section-title">📦 Model Management</h3>
+        </div>
+        
+        <div class="management-grid">
+          <div class="management-card">
+            <div class="card-header">
+              <span class="card-icon">📥</span>
+              <h4>Import Model</h4>
+            </div>
+            <p class="card-description">Load pre-trained AI models</p>
+            <div class="card-actions">
+              <button class="btn secondary" id="importModelBtn">Import Packaged</button>
+              <button class="btn ghost" id="importCustomModelBtn">Custom File</button>
+            </div>
+          </div>
+          
+          <div class="management-card">
+            <div class="card-header">
+              <span class="card-icon">👁️</span>
+              <h4>Model Inspector</h4>
+            </div>
+            <p class="card-description">View model architecture & weights</p>
+            <div class="card-actions">
+              <button class="btn secondary" id="openModelBtn">Inspect Model</button>
+              <button class="btn ghost" id="exportModelBtn">Export JSON</button>
+            </div>
+          </div>
+          
+          <div class="management-card">
+            <div class="card-header">
+              <span class="card-icon">🔧</span>
+              <h4>Diagnostics</h4>
+            </div>
+            <p class="card-description">Test AI performance & health</p>
+            <div class="card-actions">
+              <button class="btn secondary" id="selfTestBtn">Self Test</button>
+              <button class="btn ghost" id="diagBtn">Run Diagnostics</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="model-info-panel">
+          <div class="info-item">
+            <span class="info-label">Current Model</span>
+            <span class="info-value" id="modelInfo">Naive Bayes v2.1</span>
+            <div class="model-badge active" id="modelBadge">Active</div>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Model Size</span>
+            <span class="info-value">47.2 KB</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Last Updated</span>
+            <span class="info-value">2 hours ago</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Focus Tools Tab -->
+    <div id="focus-tools" class="tab-content">
+      <div class="tab-header">
+        <h2 class="tab-title">🎯 Focus & Productivity</h2>
+        <p class="tab-subtitle">AI-powered focus enhancement tools</p>
+      </div>
+
+      <!-- Focus Session Manager -->
+      <section class="focus-session-section">
+        <div class="session-card active">
+          <div class="session-header">
+            <div class="session-type">
+              <span class="session-icon">🚀</span>
+              <div class="session-info">
+                <h3>Deep Focus Session</h3>
+                <p>AI-optimized 25-minute focus period</p>
+              </div>
+            </div>
+            <div class="session-status">
+              <span class="status-indicator ready">Ready</span>
+            </div>
+          </div>
+          
+          <div class="session-timer">
+            <div class="timer-display" id="focusTimer">25:00</div>
+            <div class="timer-progress">
+              <svg class="progress-ring" width="120" height="120">
+                <circle class="progress-ring-background" cx="60" cy="60" r="54"/>
+                <circle class="progress-ring-progress" cx="60" cy="60" r="54" id="timerProgressRing"/>
+              </svg>
+            </div>
+          </div>
+          
+          <div class="session-controls">
+            <button class="control-btn primary" id="focusStart">
+              <span class="btn-icon">▶️</span>
+              Start Focus
+            </button>
+            <button class="control-btn secondary" id="focusPause" disabled>
+              <span class="btn-icon">⏸️</span>
+              Pause
+            </button>
+            <button class="control-btn ghost" id="focusReset">
+              <span class="btn-icon">🔄</span>
+              Reset
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Focus Modes -->
+      <section class="focus-modes">
+        <div class="section-header">
+          <h3 class="section-title">🎨 Focus Modes</h3>
+          <p class="section-subtitle">Choose your optimal focus environment</p>
+        </div>
+        
+        <div class="modes-grid">
+          <div class="mode-card selected" data-mode="deep-work">
+            <div class="mode-icon">🧠</div>
+            <h4 class="mode-title">Deep Work</h4>
+            <p class="mode-description">Blocks distractions, minimal notifications</p>
+            <div class="mode-settings">
+              <span class="setting">🔕 Zero notifications</span>
+              <span class="setting">🌐 Essential sites only</span>
+            </div>
+          </div>
+          
+          <div class="mode-card" data-mode="creative-flow">
+            <div class="mode-icon">🎨</div>
+            <h4 class="mode-title">Creative Flow</h4>
+            <p class="mode-description">Inspiration-friendly, ambient tracking</p>
+            <div class="mode-settings">
+              <span class="setting">🎵 Background sounds</span>
+              <span class="setting">🌈 Visual cues</span>
+            </div>
+          </div>
+          
+          <div class="mode-card" data-mode="study-session">
+            <div class="mode-icon">📚</div>
+            <h4 class="mode-title">Study Session</h4>
+            <p class="mode-description">Learning-optimized with breaks</p>
+            <div class="mode-settings">
+              <span class="setting">⏰ Smart breaks</span>
+              <span class="setting">📖 Reading mode</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Site Management -->
+      <section class="site-management">
+        <div class="section-header">
+          <h3 class="section-title">🌐 Site Controls</h3>
+        </div>
+        
+        <div class="site-controls">
+          <div class="control-group">
+            <label class="control-label">Current Site Actions</label>
+            <div class="current-site-info">
+              <span class="site-icon">🌐</span>
+              <span class="site-url" id="currentSiteUrl">example.com</span>
+              <div class="site-actions">
+                <button class="site-btn primary" id="pauseSiteBtn">
+                  <span class="btn-icon">⏸️</span>
+                  Pause Tracking
+                </button>
+                <button class="site-btn secondary" id="focusModeBtn">
+                  <span class="btn-icon">🎯</span>
+                  Focus Mode
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">Paused Sites</label>
+            <div id="pausedSites" class="paused-sites-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Productivity Insights -->
+      <section class="productivity-insights">
+        <div class="section-header">
+          <h3 class="section-title">📈 Productivity Insights</h3>
+        </div>
+        
+        <div class="insights-grid">
+          <div class="insight-card">
+            <div class="insight-metric">
+              <span class="metric-value">87%</span>
+              <span class="metric-label">Focus Efficiency</span>
+            </div>
+            <div class="insight-trend positive">+12% this week</div>
+          </div>
+          
+          <div class="insight-card">
+            <div class="insight-metric">
+              <span class="metric-value">4.2h</span>
+              <span class="metric-label">Daily Deep Work</span>
+            </div>
+            <div class="insight-trend neutral">Avg. for your level</div>
+          </div>
+          
+          <div class="insight-card">
+            <div class="insight-metric">
+              <span class="metric-value">23</span>
+              <span class="metric-label">Distraction Blocks</span>
+            </div>
+            <div class="insight-trend positive">-8 from yesterday</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Settings Tab -->
+    <div id="settings" class="tab-content">
+      <div class="tab-header">
+        <h2 class="tab-title">⚙️ Settings & Preferences</h2>
+        <p class="tab-subtitle">Customize your digital wellness experience</p>
+      </div>
+
+      <!-- General Settings -->
+      <section class="settings-section">
+        <div class="section-header">
+          <h3 class="section-title">🎛️ General</h3>
+        </div>
+        
+        <div class="settings-grid">
+          <div class="setting-item">
+            <div class="setting-header">
+              <label class="setting-label" for="timeLimit">⏰ Daily Time Limit</label>
+              <span class="setting-value" id="timeLimitDisplay">30 minutes</span>
+            </div>
+            <div class="setting-control">
+              <input type="range" id="timeLimit" min="15" max="480" value="30" step="15" class="range-slider">
+              <div class="range-labels">
+                <span>15m</span>
+                <span>1h</span>
+                <span>2h</span>
+                <span>4h</span>
+                <span>8h</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="setting-item">
+            <div class="setting-header">
+              <label class="setting-label">🔔 Smart Notifications</label>
+              <div class="toggle-switch">
+                <input type="checkbox" id="enableAlerts" checked>
+                <span class="toggle-slider"></span>
+              </div>
+            </div>
+            <p class="setting-description">AI-powered intelligent alerts for optimal timing</p>
+          </div>
+          
+          <div class="setting-item">
+            <div class="setting-header">
+              <label class="setting-label">🎨 Ambient Morphing</label>
+              <div class="toggle-switch">
+                <input type="checkbox" id="enableMorphing" checked>
+                <span class="toggle-slider"></span>
+              </div>
+            </div>
+            <p class="setting-description">Subtle visual cues and interface adaptations</p>
+            
+            <div class="sub-setting" id="morphingIntensityControl">
+              <label class="sub-setting-label">Intensity Level</label>
+              <div class="intensity-control">
+                <input type="range" id="morphingIntensity" min="10" max="100" value="50" class="range-slider mini">
+                <span class="intensity-value" id="intensityValue">50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Data & Privacy -->
+      <section class="settings-section">
+        <div class="section-header">
+          <h3 class="section-title">🔒 Data & Privacy</h3>
+        </div>
+        
+        <div class="data-controls">
+          <div class="control-group">
+            <label class="control-label">💾 Data Management</label>
+            <div class="data-actions">
+              <button class="btn secondary" id="exportDataBtn">
+                <span class="btn-icon">📤</span>
+                Export All Data
+              </button>
+              <button class="btn ghost" id="importDataBtn">
+                <span class="btn-icon">📥</span>
+                Import Data
+              </button>
+              <input type="file" id="importFileInput" accept="application/json" style="display:none">
+            </div>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">🔄 Reset Options</label>
+            <div class="reset-actions">
+              <button class="btn warning" id="resetData">
+                <span class="btn-icon">🔄</span>
+                Reset Today's Data
+              </button>
+              <button class="btn danger" id="resetAllData">
+                <span class="btn-icon">⚠️</span>
+                Reset All Data
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mood Tracking -->
+      <section class="settings-section">
+        <div class="section-header">
+          <h3 class="section-title">😊 Mood & Wellness</h3>
+        </div>
+        
+        <div class="mood-section">
+          <div class="mood-prompt">
+            <h4>How are you feeling right now?</h4>
+            <p>Help the AI understand your current state for better recommendations</p>
+          </div>
+          <div class="mood-selector">
+            <button class="mood-btn" data-mood="excellent" title="Excellent">😄</button>
+            <button class="mood-btn" data-mood="good" title="Good">🙂</button>
+            <button class="mood-btn selected" data-mood="neutral" title="Neutral">😐</button>
+            <button class="mood-btn" data-mood="low" title="Low">😟</button>
+            <button class="mood-btn" data-mood="stressed" title="Stressed">😫</button>
+          </div>
+          <div class="mood-insights">
+            <div class="mood-stat">
+              <span class="stat-label">Mood Quality</span>
+              <span class="stat-value" id="moodQuality">7.2/10</span>
+            </div>
+            <div class="mood-trend">
+              <span class="trend-icon">📈</span>
+              <span class="trend-text">Improving over the week</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Action Buttons -->
+      <section class="settings-actions">
+        <button class="btn primary large" id="saveSettings">
+          <span class="btn-icon">💾</span>
+          Save All Settings
+        </button>
+      </section>
+    </div>
+
+    <!-- Activity Details Panel (slides in) -->
+    <div id="stressSampleList" class="details-panel"></div>
+    
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="footer-content">
+        <p class="footer-text">🧘 Stay mindful • Scroll consciously • AI-enhanced wellness</p>
+        <div class="footer-version">v2.1.0</div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="mindful_scroll_popup_js.js"></script>
+</body>
+</html>
